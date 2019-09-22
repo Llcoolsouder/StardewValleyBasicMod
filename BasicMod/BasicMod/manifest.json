@@ -1,0 +1,10 @@
+﻿{
+    "Name": "BasicMod",
+    "Author": "Lonnie L. Souder II",
+    "Version": "0.1.0",
+    "Description": "Just a simple mod project for me to play with",
+    "UniqueID": "Lonnie.BasicMod",
+    "EntryDll": "BasicMod.dll",
+    "MinimumApiVersion": "2.10.0",
+    "UpdateKeys": []
+}

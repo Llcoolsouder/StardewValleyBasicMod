@@ -1,0 +1,27 @@
+﻿<Properties>
+  <MonoDevelop.Ide.ItemProperties.BasicMod FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BasicMod/manifest.json">
+    <Files>
+      <File FileName="BasicMod/ModEntry.cs" Line="21" Column="38" />
+      <File FileName="BasicMod/manifest.json" Line="3" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BasicMod" expanded="True">
+            <Node name="BasicMod" expanded="True">
+              <Node name="manifest.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <AuthorInfo Name="Lonnie Souder II" Email="lonnie2@souderfamily.net" Copyright="" Company="" Trademark="" />
+</Properties>
