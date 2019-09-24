@@ -1,8 +1,12 @@
 language: csharp
-solution: BasicMod.sln
+solution: "BasicMod/BasicMod.sln"
 
 os: linux
 dist:
   - bionic
   - xenial
 mono: latest
+install:
+  - nuget restore BasicMod/BasicMod.sln
+script:
+  - msbuild /p:Configuration=Release BasicMod/BasicMod.sln
