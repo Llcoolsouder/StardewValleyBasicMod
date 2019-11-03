@@ -7,6 +7,7 @@ dist:
   - xenial
 mono: latest
 install:
+  - sudo apt-get install xbuild
   - nuget restore BasicMod/BasicMod.sln
 script:
-  - msbuild /p:Configuration=Release BasicMod/BasicMod.sln
+  - xbuild /p:Configuration=Release BasicMod/BasicMod.sln
