@@ -2,9 +2,10 @@ language: csharp
 solution: "BasicMod/BasicMod.sln"
 
 os: linux
-dist:
-  - bionic
-  - xenial
+matrix:
+  include:
+    - dist: bionic
+    - dist: xenial
 mono: latest
 install:
   - sudo apt-get install xbuild
