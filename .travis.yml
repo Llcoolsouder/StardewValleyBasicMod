@@ -9,7 +9,7 @@ matrix:
 mono: latest
 
 install:
-  - sudo apt-get install mono-xbuild
+  - mkdir -p "~/.steam/root/steamapps/common/Stardew Valley/"
   - nuget restore BasicMod/BasicMod.sln
 script:
-  - xbuild /p:Configuration=Release BasicMod/BasicMod.sln
+  - msbuild /p:Configuration=Release BasicMod/BasicMod.sln
