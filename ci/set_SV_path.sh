@@ -1,5 +1,8 @@
 #!/bin/bash
 
+mkdir -p $1
+touch StardewValley.exe
+
 cat > ~/stardewvalley.targets <<- EOM
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
