@@ -9,7 +9,7 @@ matrix:
 mono: latest
 
 install:
-  - mkdir -p "~/.steam/root/steamapps/common/Stardew Valley/"
+  - ./ci/set_SV_path.sh "./build" 
   - nuget restore BasicMod/BasicMod.sln
 script:
   - msbuild /p:Configuration=Release BasicMod/BasicMod.sln
