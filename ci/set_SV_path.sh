@@ -9,7 +9,7 @@ cat > ~/stardewvalley.targets <<- EOM
         <GamePath>
 EOM
 
-echo "            $1" >> ~/stardewvalley.targets
+echo "            $PWD/$1" >> ~/stardewvalley.targets
 
 cat >> ~/stardewvalley.targets <<- EOM
         </GamePath>
