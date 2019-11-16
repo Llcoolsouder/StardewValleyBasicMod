@@ -1,7 +1,8 @@
 #!/bin/bash
 
-mkdir -p $1
-touch "$1/StardewValley.exe"
+mkdir -p "$PWD/$1"
+touch "$PWD/$1/StardewValley.exe"
+ls -lha "$PWD/$1"
 
 cat > ~/stardewvalley.targets <<- EOM
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
