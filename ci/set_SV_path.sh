@@ -1,7 +1,7 @@
 #!/bin/bash
 
 mkdir -p "$PWD/$1"
-touch "$PWD/$1/StardewValley.exe"
+echo "NOT EMPTY" >> $PWD/$1/StardewValley.exe"
 ls -lha "$PWD/$1"
 
 cat > ~/stardewvalley.targets <<- EOM
